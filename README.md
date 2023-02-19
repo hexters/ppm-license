@@ -26,7 +26,7 @@ use PpMarket\License\PpmLicense;
 
 try {
     
-    $ppm = (new PpmLicense)->claim('6fcb7536-bff222-56223a-4835a71913f800db5060');
+    (new PpmLicense)->claim('6fcb7536-bff222-56223a-4835a71913f800db5060');
     
     // Claim success, and run your program logic to protect your package
 
