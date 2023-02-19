@@ -1,0 +1,19 @@
+{
+    "name": "ppm/license",
+    "description": "Package license checker for ppmarket.ort packages",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PpMarket\\License\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Asep",
+            "email": "hexters@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
